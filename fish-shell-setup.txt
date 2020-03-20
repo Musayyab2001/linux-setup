@@ -1,0 +1,20 @@
+# Install Fish
+
+sudo apt-add-repository ppa:fish-shell/release-3
+sudo apt-get update
+sudo apt-get install fish
+
+# Make default shell
+chsh -s `which fish`
+
+# install curl
+sudo apt install curl
+
+# Install git
+sudo apt install git
+
+# Install oh-my-fish
+curl -L https://get.oh-my.fish | fish
+
+# Install Toaster Theme
+omf install toaster
