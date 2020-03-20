@@ -1,3 +1,11 @@
 # Install Node js Ubuntu
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install -y nodejs
+
+# npm local setup
+https://docs.npmjs.com/resolving-eacces-permissions-errors-when-installing-packages-globally
+
+mkdir ~/.npm-global
+sudo apt install npm
+npm config set prefix '~/.npm-global'
+NPM_CONFIG_PREFIX=~/.npm-global
