@@ -1,0 +1,6 @@
+# Download 
+https://releases.hyper.is/download/deb
+
+
+# Make default Terminal
+sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /opt/Hyper/hyper 50
