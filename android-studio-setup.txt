@@ -1,0 +1,7 @@
+# SDK Tools
+https://dl.google.com/android/repository/sdk-tools-linux-4333796.zip
+
+# JDK setup
+sudo apt update
+
+sudo apt install openjdk-8-jdk
