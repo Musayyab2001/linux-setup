@@ -10,3 +10,13 @@ set -gx PATH $ANDROID_HOME/tools/bin $PATH;
 set -gx PATH $ANDROID_HOME/platform-tools $PATH;
 set -gx PATH $ANDROID_HOME/emulator $PATH;
 set -gx PATH $JAVA_HOME $PATH;
+
+bass source ~/.profile
+bass source ~/.bashrc
+
+function nvm
+    bass source ~/.nvm/nvm.sh --no-use ';' nvm $argv
+end
+
+set -x NVM_DIR ~/.nvm
+nvm use default --silent
