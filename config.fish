@@ -1,6 +1,7 @@
 GNU nano 4.8             /home/musayyab/.config/fish/config.fish
 
-set -gx PATH ~/.npm-global/bin $PATH
+# see nvm setup
+# set -gx PATH ~/.npm-global/bin $PATH
 
 set --export ANDROID $HOME/Android;
 set --export JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64;
