@@ -1,2 +1,11 @@
 https://eshlox.net/2019/01/27/how-to-use-nvm-with-fish-shell
 https://medium.com/@joshuacrass/nvm-on-mac-for-fish-users-e00af124c540
+
+# bass setup
+omf channel dev
+omf update
+
+omf install bass
+
+# Install nvm
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
